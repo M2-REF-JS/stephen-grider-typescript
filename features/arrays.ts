@@ -20,3 +20,4 @@ const importantDates: (Date | string)[] = [new Date(), '2021-03-21'];
 
 importantDates.push('2021-03-21');
 importantDates.push(new Date());
+// importantDates.push(50);
