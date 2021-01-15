@@ -12,6 +12,10 @@ interface AppProps {
 const _App = (props: AppProps) => {
   // const dispatch = useDispatch();
 
+  // useEffect(() => {
+  //   dispatch(fetchTodos());
+  // }, [dispatch]);
+
   useEffect(() => {
     if (props.todos.length > 0) {
       setIsLoading(false);
